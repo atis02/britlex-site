@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+}
+body{
+    padding: 0 130px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.header-logo{
+    color: #000;
+    font-weight: 400;
+}
+.header-logo>span{
+    color: #939393;
+}
+.header-nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+   
+}
+.header-link:hover {
+    text-decoration:underline;
+}
+.header-button{
+    font-size: 24px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 15px 55px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.header-button:hover{
+    
+    border: 2px solid #000;
+    color: #fff;
+    background-color: #000;
+}
+/* home */
+.home{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+    align-items: center;
+}
+.home-img{
+    width: 660px;
+    height: 660px;
+    background-color: #e1e1e1;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+}
+.home-text{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+
+}
+.home-title{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+
+}
+.home-description{
+    color: #8F95A5;
+    font-size: 24px;
+}
+.home-button{
+    border: 2px solid #263238;
+    background-color: #263238;
+    padding: 30px 115px;
+    font-size: 36px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.home-button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #263238;
+
+}
+/* about */
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 220px;
+}
+.about-text{
+    max-width: 630px;
+}
+.about-img{
+    min-width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    background-color: #e1e1e1;
+    border-radius: 20px;
+
+}
+.about-title{
+    font-size: 48px;
+    margin-bottom: 20px;
+
+
+}
+.about-description{
+    font-size: 20px;
+    color: #8F95A5;
+    margin-bottom: 60px;
+}
+.about.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-number{
+    display: flex;
+    
+}
+/* footer */
+.footer-line{
+    border-top: 1px solid #263238;
+    width: 100%;
+    height: 10px;
+
+}
+    
